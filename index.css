@@ -26,6 +26,7 @@
     /* margin: 60px; */
     margin: auto;
     border: 2px solid black;
+    
    
 }
 
@@ -123,26 +124,36 @@ img{
     float: right;
     margin-left: 29rem;
     margin-top: 20px;
+  
 }
-/* #btn1{
-    float: left;
-} */
+#btn1{
+    border-radius: 3px;
+    padding: 1px;
+
+}
+#btn2{
+    border-radius: 3px;
+    padding: 1px;
+
+}
+
 
 
 #btn1:hover{
     background-color: rgb(0, 0, 10);
     color: rgb(255, 255, 255);
 }
+#href{
+    color: rgb(12, 5, 5);
+}
 
 #btn2:hover{
-    background-color: blue;
-    color: rgb(255, 255, 255);
+    background-color: rgb(69, 133, 185);
+    color: rgb(224, 212, 212);
 
 
 }
-#href{
-    color: #000;
-}
+
 @media screen and (max-width:1266px) {
     #button3 {
         margin-left: 21rem;
@@ -196,13 +207,13 @@ img{
 
 @media screen and (max-width:510px) {
     .container{
-        min-height: 110vh;
+        min-height: 100vh;
     }
     .partition{
         display: flex;
         flex-direction: column-reverse;
         width: 85%;
-        min-height: 110vh;
+        min-height: 105vh;
     }
     .partition .main1{
         width: 100%;
@@ -221,7 +232,7 @@ img{
 }
 @media screen and (max-width:441px) {
     .container{
-        height: 120vh;
+        height: 110vh;
     }
 }
 @media screen and (max-width:435px) {
